@@ -57,6 +57,12 @@ ul{
   position: relative;
 }
 
+ul li img {
+  display: block;
+  transition: 0.9s;
+  width: 48px;
+}
+
 ul li {
   float: right;
 
@@ -79,8 +85,13 @@ li a:hover{
   background-color: #111;
 }
 
+/*
+ul li:nth-child(5).active ~ .slide {
+  left: 12px;
+  opacity : 1;
+}
 ul li:nth-child(4).active ~ .slide {
-  left: 0;
+  left: 160px;
   opacity: 1;
 }
 ul li:nth-child(3).active ~ .slide {
@@ -95,10 +106,11 @@ ul li:nth-child(1).active ~ .slide {
   left: 480px;
   opacity: 1;
 }
+*/
 
 .slide {
   position: absolute;
-  width: 160px;
+  width: 48px;
   height: 44px;
   top: 0;
   left: 0;
