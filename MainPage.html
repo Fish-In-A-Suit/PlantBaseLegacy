@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>PlantBase - Home</title>
+    <link rel="stylesheet" href="core/plantCard.css"/>
+    <link rel="stylesheet" href="core/NavigationBarStyle.css"/>
+  </head>
+
+  <!-- Body comprises of two parts:
+        - navigation bar (to switch between subpages)
+        - content (indoor plants, outdoor plants, tools, articles, etc)
+
+      Content isn't loaded in a new page, but in the div of the content, so as to
+      provide smooth animations.
+
+      todo: when a li is clicked in navigation bar, find which li that is and then
+      load the correct page into content div
+   -->
+  <body>
+    <div class="navigationBar">
+
+    </div>
+
+    <div id="content">
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+            crossorigin="anonymous">
+    </script>
+
+    <script src="scripts/navigationBarLoadingScript.js">
+    </script>
+  </body>
+</html>
